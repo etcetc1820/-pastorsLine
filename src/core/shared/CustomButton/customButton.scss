@@ -1,0 +1,24 @@
+.btn {
+  &.btn-all-contacts,
+  &.btn-us-contacts {
+    color: #fff;
+  }
+
+  &.btn-all-contacts {
+    background-color: #46139f;
+
+    &:hover {
+      color: #e8ddfb;
+    }
+  }
+
+  &.btn-us-contacts {
+    background-color: #ff7f50;
+  }
+
+  &.btn-close {
+    color: #333;
+    background-color: #fff;
+    border: 1px solid #46139f;
+  }
+}
